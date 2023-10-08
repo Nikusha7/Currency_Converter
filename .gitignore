@@ -1,0 +1,19 @@
+# Maven
+log/
+target/
+
+# IDE-specific files (IntelliJ IDEA)
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Mac
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp

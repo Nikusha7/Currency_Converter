@@ -1,0 +1,107 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Serif, serif;
+}
+
+.center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* This centers the form vertically in the viewport */
+}
+
+/*styling fieldset*/
+.fieldset {
+    width: 520px;
+    height: 250px;
+    border: 1px solid #ccc;
+    padding: 10px 20px 5px;
+    position: relative;
+}
+
+/* centering title of fieldset (Currency Converter!)*/
+legend {
+    text-align: center;
+}
+
+/* Style the custom text (Lat updated date-time) in the bottom right corner of fieldset */
+.custom-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    padding-right: 17px;
+    margin-bottom: -8px;
+}
+
+/*general info-information printed below the main request of user*/
+.general-info {
+    font-size: 14px;
+    color: #6D6D6D;
+}
+
+/*styling error message*/
+.red-text {
+    color: #ff3333;
+    font-size: 14px;
+}
+
+.all-rights-text {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background-color: #f0f0f0;
+}
+
+.select2-container {
+
+}
+
+.select2-selection__rendered {
+    width: auto;
+    cursor: pointer;
+    font-size: 11px;
+    text-align: center;
+}
+
+/* Style the dropdown arrow */
+.select2-selection__arrow {
+    border-color: #ccc transparent transparent;
+}
+
+/* Style the options in the dropdown menu */
+.select2-results__option {
+    cursor: pointer;
+    font-size: 12px;
+    height: 10px;
+}
+
+/* Style the highlighted option on hover */
+.select2-results__option--highlighted {
+    background-color: #f2f2f2;
+}
+
+
+/* Style for the button */
+button.convert-button {
+    width: 85px;
+    background-color: #1E90FF;
+    color: white;
+    border: 1px white;
+    padding: 6px;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Style the arrow character (») */
+button.convert-button::after {
+    content: "\00BB"; /* Unicode character for » */
+    margin-left: 5px; /* Add some spacing between the text and the arrow */
+}
